@@ -120,17 +120,26 @@ rem ----------------------------------------------------------------------------
 rem Create a new REPOS on github site
 rem https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 rem ---------------------------------------------------------------------------------------------------
-D:\ALL\LAB\GITROOT>git remote add master https://github.com/yves40/gitroot
+D:\ALL\LAB\GITROOT>git remote add origin https://github.com/yves40/gitroot.git
 D:\ALL\LAB\GITROOT>git remote -v
-master  https://github.com/yves40/gitroot (fetch)
-master  https://github.com/yves40/gitroot (push)
-origin  https://github.com/yves40/mygit.git (fetch)
-origin  https://github.com/yves40/mygit.git (push)
-D:\ALL\LAB\GITROOT>git remote remove origin
-D:\ALL\LAB\GITROOT>git remote -v
-master  https://github.com/yves40/gitroot (fetch)
-master  https://github.com/yves40/gitroot (push)
-
+origin  https://github.com/yves40/gitroot.git (fetch)
+origin  https://github.com/yves40/gitroot.git (push)
+rem ---------------------------------------------------------------------------------------------------
+rem Push local to remote
+rem ---------------------------------------------------------------------------------------------------
+D:\ALL\LAB\GITROOT>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': yves.toubhans@free.fr
+Password for 'https://yves.toubhans@free.fr@github.com':
+Counting objects: 15, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (15/15), 5.84 KiB | 1.46 MiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/yves40/gitroot.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 
 
