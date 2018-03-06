@@ -1,0 +1,16 @@
+rem ---------------------------------------------------------------------------------------------------
+rem 	somecommands.txt
+rem
+rem	Mar 06 2018 	Initial
+rem 
+rem ---------------------------------------------------------------------------------------------------
+rem 		New REPOS
+rem ---------------------------------------------------------------------------------------------------
+git init
+git add somecommands.txt
+git config --global user.email "yves.toubhans@free.fr"
+git config --global user.name yves40"
+git commit -m "V1 on the command scratch pad file"
+git remote add origin https://github.com/yves40/mygit.git
+git push -u origin master
+
