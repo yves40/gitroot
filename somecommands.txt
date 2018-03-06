@@ -120,16 +120,18 @@ rem ----------------------------------------------------------------------------
 rem Create a new REPOS on github site
 rem https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 rem ---------------------------------------------------------------------------------------------------
-git remote add master https://github.com/yves40/gitroot
+D:\ALL\LAB\GITROOT>git remote add master https://github.com/yves40/gitroot
 D:\ALL\LAB\GITROOT>git remote -v
 master  https://github.com/yves40/gitroot (fetch)
 master  https://github.com/yves40/gitroot (push)
 origin  https://github.com/yves40/mygit.git (fetch)
 origin  https://github.com/yves40/mygit.git (push)
-git remote remove origin
+D:\ALL\LAB\GITROOT>git remote remove origin
 D:\ALL\LAB\GITROOT>git remote -v
 master  https://github.com/yves40/gitroot (fetch)
 master  https://github.com/yves40/gitroot (push)
+
+
 
 
 
