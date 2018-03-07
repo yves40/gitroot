@@ -1,7 +1,8 @@
 rem ---------------------------------------------------------------------------------------------------
 rem 	somecommands.txt
 rem
-rem	Mar 06 2018 	Initial
+rem		Mar 06 2018 	Initial
+rem		Mar 07 2018 	More commands and verify SSH login
 rem 
 rem ---------------------------------------------------------------------------------------------------
 rem 		New local REPOS
@@ -140,6 +141,11 @@ remote: Resolving deltas: 100% (3/3), done.
 To https://github.com/yves40/gitroot.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+rem ---------------------------------------------------------------------------------------------------
+rem Clone the gitroot repo
+rem Positionned into ytoubhan@asusp4 MINGW64 /d/ALL/LAB/GIT 
+rem ---------------------------------------------------------------------------------------------------
+git clone -v https://github.com/yves40/gitroot gitroot
 
 
 
