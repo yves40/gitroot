@@ -2,3 +2,8 @@ host github.com
  HostName github.com
  IdentityFile ~/.ssh/yvesgit_rsa
  User yves40
+ 
+ host github.com
+ HostName github.com
+ IdentityFile ~/.ssh/yvesgit_rsa
+ User yves400
